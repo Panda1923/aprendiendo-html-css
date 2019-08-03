@@ -1,0 +1,126 @@
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight : bold;
+
+}
+    h2 {
+        font: bold 20px sans-serif;
+    }
+    body{
+        text-align: center;
+
+    }
+    .agrupar {
+        width: 960px;
+        border: solid 10px black;
+        background: #1E9600;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin: 15px auto;
+        border-bottom: 10px red;
+           color: #999
+
+}
+    img {
+         width: 50%;
+         height: 50%;
+    }
+.menu {
+    background: #870000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 5px 15px;
+    text-align: left
+}
+.menu li {
+    list-style: none;
+    font: bold 30px verdana;
+    display: inline-block;
+    
+}
+.cabecera h1 {
+text-align: center;
+color: antiquewhite;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.seccion{
+    margin: 20px;
+    width: 600px;
+    border: 1px solid black;
+    float: left;
+}
+article {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom: 15px;
+   
+}
+.columna{
+    width: 33%;
+    margin-top: 5px;
+    float: left;
+}
+.columna blockquote{
+    border: 1px solid black;
+    padding: 50px;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ ;
+}
+.pie{
+    clear: both;
+    padding: 20px;
+    background: grey;
+    color: blue;
+}
+time{
+ color: blue
+}
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+    .button {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+      .button  {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      .button :after {
+      content: '\00bb';  /* Entidades CSS. Para usar entidades HTML, use &#8594;*/
+      position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      .button:hover  {
+        padding-right: 25px;
+      }
+      .button:hover :after {
+        opacity: 1;
+        right: 0;
+      }
+}
+
